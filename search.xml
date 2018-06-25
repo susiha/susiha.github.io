@@ -1,13 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[new page]]></title>
+    <url>%2F2018%2F06%2F25%2Fnew-page%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <title><![CDATA[不同电脑之间管理Hexo]]></title>
+    <url>%2F2018%2F06%2F22%2F%E4%B8%8D%E5%90%8C%E7%94%B5%E8%84%91%E4%B9%8B%E9%97%B4%E7%AE%A1%E7%90%86Hexo%2F</url>
+    <content type="text"><![CDATA[####新建远程repo 在github上新增repo，例如名为hexo，地址为github.com/xxx/hexo ####在旧终端中创建本地repo 进入本地hexo目录1git init ####查看未提交的文件（默认不包含public、deploy文件）1git status 根据查看结果将本地hexo建站原始文件纳入版本控制（我本地是scaffolds、source、themes文件夹以及.gitignore、_config.yml、package.json文件）12git add …git commit -m … 需要注意的是.gitignore中需要增加一行，忽略~结尾的文件 *~ ####在旧终端中创建远程分支连接12git remote add origin git@github.com:xxx/hexo.gitgit remote -v 显示如下：12origin git@github.com:XXX/hexo.git (fetch)origin git@github.com:XXX/hexo.git (push) ####在旧终端中提交本地文件至远程repo1git push -u origin master 换了终端以后 在新终端中安装node、git环境，配置github sshkey ####在新终端中创建空目录作为hexo工作目录，从远程仓库中clone出之前备份的repo1234mkdir hexocd hexogit initgit clone git@github.com:xxx/hexo.git ####在新终端中git clone成功后，本地出现myhexo文件夹，开始安装hexo环境1234cd hexonpm install hexonpm installnpm install hexo-deployer-git ####查看本地同步效果，访问localhost:400012hexo ghexo server ####在新终端中继续使用和管理hexo 新建文章并修改1hexo new xxx ####提交原始md文件至远程repo1234git statusgit addgit commit -m xxgit push 发布静态网页1hexo g -d ####切换至旧终端使用hexo 更新网站原始文件123git pullhexo ghexo server 测试更新成功后，表明终端顺利切换完成]]></content>
+      <categories>
+        <category>Hexo教程</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>其他</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Test]]></title>
     <url>%2F2018%2F06%2F21%2FTest%2F</url>
     <content type="text"><![CDATA[首先1.1 我们怎么了 汽车 ####干什么呢 还有]]></content>
   </entry>
   <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2018%2F06%2F20%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+    <title><![CDATA[通过Hexo创建个人博客]]></title>
+    <url>%2F2016%2F06%2F01%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[本文是结合网络上的教程以及自己摸索中的经历而成的，旨在记录和总结,因为并不懂前端和和不十分懂这些命令，因此不会阐述这些命令是什么意思。所有注释只是根据自己实践中的理解以及结果网上给出的注释。 准备部分安装NodeJsHexo 是基于NodeJs的静态博客,特别是npm 命令 非常有用，后面会用到很多下载地址安装很简单 安装完成之后可以在终端测试1$ node -v 能看到的是安装的版本号因为npm默认的源的下载速度很慢，因此设置淘宝的镜像服务，命令如下 1$ npm config set registry "https://registry.npm.taobao.org" 安装Hexo先在电脑上创建一个文件夹，我自己的叫blog,然后cd 到blog目录下 12$ hexo init $ npm install 完成之后blog文件夹下面应该是这样的结构 1234567├── _config.yml├── package.json├── scaffolds├── source | ├── _drafts | └── _posts└── themes 安装git1$ hexo deploy More info: Deployment]]></content>
+      <categories>
+        <category>Hexo教程</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>其他</tag>
+      </tags>
   </entry>
 </search>

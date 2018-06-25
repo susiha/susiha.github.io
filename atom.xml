@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>susiha&#39;s 实验室</title>
+  <title>苏斯哈的实验室</title>
   
-  
+  <subtitle>学而时习之</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-06-21T05:31:42.121Z</updated>
+  <updated>2018-06-25T07:30:02.039Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,48 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>new page</title>
+    <link href="http://yoursite.com/2018/06/25/new-page/"/>
+    <id>http://yoursite.com/2018/06/25/new-page/</id>
+    <published>2018-06-25T07:14:56.000Z</published>
+    <updated>2018-06-25T07:30:02.039Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>不同电脑之间管理Hexo</title>
+    <link href="http://yoursite.com/2018/06/22/%E4%B8%8D%E5%90%8C%E7%94%B5%E8%84%91%E4%B9%8B%E9%97%B4%E7%AE%A1%E7%90%86Hexo/"/>
+    <id>http://yoursite.com/2018/06/22/不同电脑之间管理Hexo/</id>
+    <published>2018-06-22T09:06:08.000Z</published>
+    <updated>2018-06-25T07:54:12.537Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;####新建远程repo&lt;/p&gt;
+&lt;p&gt;在github上新增repo，例如名为hexo，地址为github.com/xxx/hexo&lt;/p&gt;
+&lt;p&gt;####在旧终端中创建本地repo&lt;/p&gt;
+&lt;p&gt;进入本地hexo目录&lt;br&gt;&lt;figure class=&quot;highlight
+      
+    
+    </summary>
+    
+      <category term="Hexo教程" scheme="http://yoursite.com/categories/Hexo%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="教程" scheme="http://yoursite.com/tags/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="其他" scheme="http://yoursite.com/tags/%E5%85%B6%E4%BB%96/"/>
+    
+  </entry>
   
   <entry>
     <title>Test</title>
@@ -38,21 +80,27 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2018/06/20/hello-world/"/>
-    <id>http://yoursite.com/2018/06/20/hello-world/</id>
-    <published>2018-06-20T09:56:26.539Z</published>
-    <updated>2018-06-20T09:56:26.539Z</updated>
+    <title>通过Hexo创建个人博客</title>
+    <link href="http://yoursite.com/2016/06/01/hello-world/"/>
+    <id>http://yoursite.com/2016/06/01/hello-world/</id>
+    <published>2016-06-01T15:47:44.000Z</published>
+    <updated>2018-06-22T06:21:58.911Z</updated>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+        &lt;!--Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you ge
       
     
     </summary>
     
+      <category term="Hexo教程" scheme="http://yoursite.com/categories/Hexo%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="教程" scheme="http://yoursite.com/tags/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="其他" scheme="http://yoursite.com/tags/%E5%85%B6%E4%BB%96/"/>
     
   </entry>
   
